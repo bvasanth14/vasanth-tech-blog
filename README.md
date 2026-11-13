@@ -64,7 +64,9 @@ The website comes with **11 comprehensive, in-depth articles** pre-published acr
 
 ---
 
-##  🏗️ Architecture
+## 🏗️ Architecture
+
+```text
 tech-blog-mern/
 ├── backend/
 │   ├── data/                 # Embedded persistent JSON storage
@@ -93,7 +95,7 @@ tech-blog-mern/
 ├── dev-runner.js             # Dual-server development orchestrator
 ├── package.json              # Monorepo root workspace scripts
 └── README.md
-
+```
 ---
 
 ## 🔑 Demo Login Credentials (Editorial CMS)
