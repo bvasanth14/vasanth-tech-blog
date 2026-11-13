@@ -65,7 +65,6 @@ The website comes with **11 comprehensive, in-depth articles** pre-published acr
 ---
 
 ##  🏗️ Architecture
-
 tech-blog-mern/
 ├── backend/
 │   ├── data/                 # Embedded persistent JSON storage
