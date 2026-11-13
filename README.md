@@ -66,7 +66,34 @@ The website comes with **11 comprehensive, in-depth articles** pre-published acr
 
 ##  🏗️ Architecture
 
-tech-blog-mern/ ├── backend/ │ ├── data/ # Embedded persistent JSON storage │ ├── src/ │ │ ├── config/ # DB connection & MemoryStore fallback │ │ ├── controllers/ # Posts, Auth, Categories business logic │ │ ├── middleware/ # JWT Auth & Error handling │ │ ├── models/ # Mongoose schemas (Post, User, Category) │ │ ├── routes/ # RESTful API route definitions │ │ ├── utils/ # Read-time calculation, slug utilities │ │ ├── seeder.js # Initial database seeder script │ │ └── server.js # Express server entry point │ ├── .env # Backend environment configuration │ └── package.json ├── frontend/ │ ├── src/ │ │ ├── components/ # UI, Layout, Blog & Admin CMS components │ │ ├── context/ # AuthContext for session management │ │ ├── pages/ # Home, BlogListing, BlogDetail, Admin pages │ │ ├── services/ # Axios API clients │ │ ├── App.jsx # Client-side router configuration │ │ └── main.jsx # React DOM root entry │ ├── index.html │ ├── vite.config.js # Vite build & reverse proxy configuration │ └── package.json ├── dev-runner.js # Dual-server development orchestrator ├── package.json # Monorepo root workspace scripts └── README.md
+tech-blog-mern/
+├── backend/
+│   ├── data/                 # Embedded persistent JSON storage
+│   ├── src/
+│   │   ├── config/           # DB connection & MemoryStore fallback
+│   │   ├── controllers/      # Posts, Auth, Categories business logic
+│   │   ├── middleware/       # JWT Auth & Error handling
+│   │   ├── models/           # Mongoose schemas (Post, User, Category)
+│   │   ├── routes/           # RESTful API route definitions
+│   │   ├── utils/            # Read-time calculation, slug utilities
+│   │   ├── seeder.js         # Initial database seeder script
+│   │   └── server.js         # Express server entry point
+│   ├── .env                  # Backend environment configuration
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/       # UI, Layout, Blog & Admin CMS components
+│   │   ├── context/          # AuthContext for session management
+│   │   ├── pages/            # Home, BlogListing, BlogDetail, Admin pages
+│   │   ├── services/         # Axios API clients
+│   │   ├── App.jsx           # Client-side router configuration
+│   │   └── main.jsx          # React DOM root entry
+│   ├── index.html
+│   ├── vite.config.js        # Vite build & reverse proxy configuration
+│   └── package.json
+├── dev-runner.js             # Dual-server development orchestrator
+├── package.json              # Monorepo root workspace scripts
+└── README.md
 
 ---
 
